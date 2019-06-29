@@ -1,0 +1,13 @@
+@import "base/min";
+
+.flex {
+    display: $display;
+}
+
+.flex-dir-col {
+    flex-direction: $flex-dir;
+}
+
+.align-item{
+    align-items: $ai;
+}

@@ -1,0 +1,33 @@
+@import "base/min";
+.home-main-container{
+    display: $display;
+    flex-direction: row-reverse;
+.home-view-container{
+    .nav{
+        padding: $padding-30;
+        display: $display;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        a{
+           @include nav-box($grey);
+
+            &.router-link-exact-active{
+                background-color: $sea-green;
+                color: #fff;
+            }
+            &:hover{
+                background-color: $sea-green;
+                @include nav-box($white);
+            }
+        }
+    }
+    .heading-1{
+        padding: $padding-30;
+        font-size: 1.688rem;
+    }
+  .heading-2{
+        padding: $padding-30;
+        font-size: 0.938rem;
+  }
+}
+}

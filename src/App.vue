@@ -1,14 +1,24 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+  <div class="app">
+    <home/>
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" >
+@import '@/App.scss';
+</style>
+
+<script>
+import Home from '@/views/Home'
+export default {
+  name: 'app',
+  components: {
+    Home
+  }
+}
+</script>
+
+<!--<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,4 +36,4 @@
     }
   }
 }
-</style>
+</style>-->

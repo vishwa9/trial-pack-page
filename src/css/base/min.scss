@@ -1,0 +1,19 @@
+$bColor: #000;
+$display: flex;
+$flex-dir: column;
+$padding-30: 15px 0 0 30px;
+$ai: center;
+$grey: #7c7c7c;
+$white: #fff;
+$sea-green: #00afab;
+
+@mixin nav-box($property) {
+    padding: 15px;
+    border-width: thin;
+    border-color: $grey;
+    border-style: solid;
+    font-weight: bold;
+    text-decoration: none;
+    color: $property;
+    margin-right: 10px;
+}
