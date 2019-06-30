@@ -19,6 +19,10 @@
                 background-color: $sea-green;
                 @include nav-box($white);
             }
+            .text-inline{
+                white-space: nowrap;
+                overflow: hidden;
+            }
         }
     }
     .heading-1{
@@ -30,4 +34,9 @@
         font-size: 0.938rem;
   }
 }
+}
+@media screen and (max-width: 1085px) {
+    .home-main-container {
+      flex-direction: column;
+    }
 }
