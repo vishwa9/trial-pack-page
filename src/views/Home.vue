@@ -35,6 +35,9 @@
         </div>
       </router-link>
     </div>
+    <div class="size-description-style">
+      Sizes 1 and 2 contain the 99% water wipes and sizes 3 to 5 contain the sensitive wipes. All sizes contain a small pack of (10) diapers.
+    </div>
   </div>
   <div>
     <router-view/>

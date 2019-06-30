@@ -33,10 +33,19 @@
         padding: $padding-30;
         font-size: 0.938rem;
   }
+  .size-description-style{
+        padding: 15px 0 0 30px;
+        font-size: 0.938rem;
+        font-family: cera_proregular,Helvetica,Roboto,Arial,sans-serif;
+  }
 }
+  img{
+    max-width: 100%;
+    height: auto;
+  }
 }
 @media screen and (max-width: 1085px) {
     .home-main-container {
-      flex-direction: column;
+      flex-direction: column-reverse;
     }
 }
